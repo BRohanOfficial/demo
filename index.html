@@ -19,9 +19,22 @@ init: git init
       git branch -M main (to change branch name to main)
       git checkout feature (to navigate)
       git checkout -b feature (To create new branch)
-      git branch -d feature (To delete existing branch)
+      git branch -D feature (To delete existing branch)
       <!-- merging codes -->
       git diff branch name ( to compare commits, branches, filrs and more)
       git merge branch name(to merge 2 branches)
 
       or create a PR or pull request
+      <!-- pull command -->
+      git pull origin main
+
+      <!-- undoing changes -->
+      staged changes := git reset "file name"
+                        gut reset.
+        
+      commited changes(for one commit) := git reset HEAD~1
+
+      commited changes(for many commit) := git reset "commit hash"
+                                           git reset --hard "commit hash"
+    <!-- commit hash -->
+    git log
